@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aastha Suryavanshi | Student Portfolio</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #1a73e8;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  margin: 8px 0;
+  background: rgba(255,255,255,0.15);
+  border-radius: 5px;
+}
+
+.sidebar a:hover {
+  background: white;
+  color: #1a73e8;
+}
+
+/* Content */
+.content {
+  flex: 1;
+  padding: 40px;
+  background: white;
+}
+
+.section {
+  display: none;
+}
+
+.section:target {
+  display: block;
+}
+
+/* Default section */
+#home {
+  display: block;
+}
+
+h1 {
+  color: #1a73e8;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>Aastha</h2>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- Content -->
+  <div class="content">
+
+    <div id="home" class="section">
+      <h1>Welcome 👋</h1>
+      <p>Hii, I'm <b>Aastha Suryavanshi</b>.</p>
+      <p>Student  |  Aspiring IT Professional </p>
+      <p> Passionate about learning, creativity and technology</p>
+      
+    </div>
+    <img src="C:\Users\llllllllll\Downloads\welcome.jpg"
+    width="600"
+    height="300">
+
+    <div id="about" class="section">
+      <h1>About Me</h1>
+      <p>I am a motivated and enthusiastic student with a strong interest in technology, creativity, and continuous learning.
+        I believe in improving myself every day by developing new skills and gaining practical knowledge.
+        Currently, I am pursuing my bachlor's degree from Shri Vaishnav Vidhyapeeth Vishwavidyalaya. 
+        I enjoy exploring computer-related concepts and building a strong foundation for my future career in the IT field</p>
+      <img src="C:\Users\llllllllll\Downloads\svvv.jpg" width="600" height="300">
+    </div>
+
+    <div id="hobbies" class="section">
+      <h1>My Hobbies</h1>
+      <ul>
+        <li>Listening to music</li>
+        <li>Cooking</li>
+        <li>Doodle art</li>
+        <li>Learning new skills</li>
+        <p> Here are some of the pictures of my doodle art</p>
+        <div style="display: flex; gap: 10px;">
+        <img src="C:\Users\llllllllll\Downloads\ganeshaa.jpg" width="300" height="300">
+        <img src="C:\Users\llllllllll\Downloads\harry.jpg" width="300" height="300">
+        <img src="C:\Users\llllllllll\Downloads\woman.jpg" width="300" height="300">
+      </ul>
+    </div>
+
+    <div id="skills" class="section">
+      <h1>My Skills</h1>
+      <ul>
+        <li>Basic computer knowledge</li>
+        <li>Communication skills</li>
+        <li>Leadership</li>
+        <li>Creative thinking</li>
+        <li>Good planner</li>
+      </ul>
+    </div>
+
+    <div id="contact" class="section">
+      <h1>Contact Me</h1>
+      <p><b>Email:</b> suryavanshiaastha1@gmail.com</p>
+      <p><b>Phone:</b> +91XXXXXXXXXX</p>
+      <p><b>College:</b> Shri Vaishnav Vidhyapeeth Vishwavidyalaya</p>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
